@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Project xmi:id="_7gK4kUnJEeiJKYxZ8m337A" label="penske_refrence" description="" language="java" technicalLabel="PENSKE_REFRENCE" creationDate="2018-04-27T03:18:18.000+0000" author="_7gK4kknJEeiJKYxZ8m337A" productVersion="Talend Data Fabric-6.4.1.20170623_1246" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/saikrishna2812/cicd.git&quot;,&quot;login&quot;:&quot;saikrishna2812&quot;,&quot;passwd&quot;:&quot;ebc7pby5jPynpKUTCIXJPA==&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" reference="true" type="DI"/>
+  <TalendProperties:User xmi:id="_7gK4kknJEeiJKYxZ8m337A" login="admin@company.com" firstName="security" lastName="security" type="MDM" additionnalData="{}"/>
+</xmi:XMI>
