@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendJSON="http://www.talend.org/json" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendJSON:JSONFileConnection xmi:id="_vBm58UyZEeix7K-sD_cCVQ" name="schema_create" dataPackage="_vBm6BkyZEeix7K-sD_cCVQ" JSONFilePath="C:/Users/Administrator/Desktop/TAC_Task/schema_create.json" Encoding="UTF-8" inputModel="false" outputFilePath="C:/Users/Administrator/Desktop/TAC_Task/out_create.json">
+    <root xmi:id="_vBm58kyZEeix7K-sD_cCVQ" JSONPath="/root" RelatedColumn="" Attribute="main" Order="1" Type="id_String"/>
+    <root xmi:id="_vBm580yZEeix7K-sD_cCVQ" JSONPath="/root/active" RelatedColumn="active" Attribute="branch" Order="3" Type="id_Boolean"/>
+    <root xmi:id="_vBm59EyZEeix7K-sD_cCVQ" JSONPath="/root/authPass" RelatedColumn="authPass" Attribute="branch" Order="4" Type="id_String"/>
+    <root xmi:id="_vBm59UyZEeix7K-sD_cCVQ" JSONPath="/root/authUser" RelatedColumn="authUser" Attribute="branch" Order="5" Type="id_String"/>
+    <root xmi:id="_vBm59kyZEeix7K-sD_cCVQ" JSONPath="/root/contextName" RelatedColumn="contextName" Attribute="branch" Order="6" Type="id_String"/>
+    <root xmi:id="_vBm590yZEeix7K-sD_cCVQ" JSONPath="/root/description" RelatedColumn="description" Attribute="branch" Order="7" Type="id_String"/>
+    <root xmi:id="_vBm5-EyZEeix7K-sD_cCVQ" JSONPath="/root/executionServerName" RelatedColumn="executionServerName" Attribute="branch" Order="8" Type="id_String"/>
+    <root xmi:id="_vBm5-UyZEeix7K-sD_cCVQ" JSONPath="/root/filePath" RelatedColumn="filePath" Attribute="branch" Order="9" Type="id_String"/>
+    <root xmi:id="_vBm5-kyZEeix7K-sD_cCVQ" JSONPath="/root/importType" RelatedColumn="importType" Attribute="branch" Order="10" Type="id_String"/>
+    <root xmi:id="_vBm5-0yZEeix7K-sD_cCVQ" JSONPath="/root/logLevel" RelatedColumn="logLevel" Attribute="branch" Order="11" Type="id_String"/>
+    <root xmi:id="_vBm5_EyZEeix7K-sD_cCVQ" JSONPath="/root/nexusArtifactId" RelatedColumn="nexusArtifactId" Attribute="branch" Order="12" Type="id_String"/>
+    <root xmi:id="_vBm5_UyZEeix7K-sD_cCVQ" JSONPath="/root/nexusGroupId" RelatedColumn="nexusGroupId" Attribute="branch" Order="13" Type="id_String"/>
+    <root xmi:id="_vBm5_kyZEeix7K-sD_cCVQ" JSONPath="/root/nexusRepository" RelatedColumn="nexusRepository" Attribute="branch" Order="14" Type="id_String"/>
+    <root xmi:id="_vBm5_0yZEeix7K-sD_cCVQ" JSONPath="/root/nexusVersion" RelatedColumn="nexusVersion" Attribute="branch" Order="15" Type="id_String"/>
+    <root xmi:id="_vBm6AEyZEeix7K-sD_cCVQ" JSONPath="/root/onUnknownStateJob" RelatedColumn="onUnknownStateJob" Attribute="branch" Order="16" Type="id_String"/>
+    <root xmi:id="_vBm6AUyZEeix7K-sD_cCVQ" JSONPath="/root/pauseOnError" RelatedColumn="pauseOnError" Attribute="branch" Order="17" Type="id_Boolean"/>
+    <root xmi:id="_vBm6AkyZEeix7K-sD_cCVQ" JSONPath="/root/taskName" RelatedColumn="taskName" Attribute="branch" Order="18" Type="id_String"/>
+    <root xmi:id="_vBm6A0yZEeix7K-sD_cCVQ" JSONPath="/root/taskType" RelatedColumn="taskType" Attribute="branch" Order="19" Type="id_String"/>
+    <root xmi:id="_vBm6BEyZEeix7K-sD_cCVQ" JSONPath="/root/timeout" RelatedColumn="timeout" Attribute="branch" Order="20" Type="id_Integer"/>
+    <loop xmi:id="_vBm6BUyZEeix7K-sD_cCVQ" JSONPath="/root/actionName" RelatedColumn="actionName" Attribute="main" Order="2" Type="id_String"/>
+  </TalendJSON:JSONFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_vBm6BkyZEeix7K-sD_cCVQ" name="default" dataManager="_vBm58UyZEeix7K-sD_cCVQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_vBm6B0yZEeix7K-sD_cCVQ" id="_eRVasEyZEeix7K-sD_cCVQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vBm6CEyZEeix7K-sD_cCVQ" name="actionName" label="actionName" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vBm6CUyZEeix7K-sD_cCVQ" name="active" label="active" talendType="id_Boolean"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vBm6CkyZEeix7K-sD_cCVQ" name="authPass" label="authPass" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vBm6C0yZEeix7K-sD_cCVQ" name="authUser" label="authUser" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vBm6DEyZEeix7K-sD_cCVQ" name="contextName" label="contextName" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vBm6DUyZEeix7K-sD_cCVQ" name="description" label="description" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vBm6DkyZEeix7K-sD_cCVQ" name="executionServerName" label="executionServerName" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vBm6D0yZEeix7K-sD_cCVQ" name="filePath" label="filePath" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vBm6EEyZEeix7K-sD_cCVQ" name="importType" label="importType" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vBm6EUyZEeix7K-sD_cCVQ" name="logLevel" label="logLevel" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vBm6EkyZEeix7K-sD_cCVQ" name="nexusArtifactId" label="nexusArtifactId" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vBm6E0yZEeix7K-sD_cCVQ" name="nexusGroupId" label="nexusGroupId" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vBm6FEyZEeix7K-sD_cCVQ" name="nexusRepository" label="nexusRepository" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vBm6FUyZEeix7K-sD_cCVQ" name="nexusVersion" label="nexusVersion" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vBm6FkyZEeix7K-sD_cCVQ" name="onUnknownStateJob" label="onUnknownStateJob" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vBm6F0yZEeix7K-sD_cCVQ" name="pauseOnError" label="pauseOnError" talendType="id_Boolean"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vBm6GEyZEeix7K-sD_cCVQ" name="taskName" label="taskName" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vBm6GUyZEeix7K-sD_cCVQ" name="taskType" label="taskType" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vBm6GkyZEeix7K-sD_cCVQ" name="timeout" label="timeout" length="-1" talendType="id_String"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
