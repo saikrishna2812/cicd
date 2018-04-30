@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
   <context confirmationNeeded="false" name="Default">
-    <contextParameter comment="" name="filepath" prompt="filepath?" promptNeeded="false" type="id_String" value="&quot;C:/Users/Administrator/Desktop/TAC_Task/centralized_input.txt&quot;"/>
-    <contextParameter comment="" name="tac_url" prompt="tac_url?" promptNeeded="false" type="id_String" value="&quot;http://localhost:8080/org.talend.administrator/metaServlet?&quot;"/>
+    <contextParameter comment="" name="filepath" prompt="filepath?" promptNeeded="false" repositoryContextId="_DJ7nYEzMEeix7K-sD_cCVQ" type="id_String" value="&quot;C:/Users/Administrator/Desktop/TAC_Task/centralized_input.txt&quot;"/>
+    <contextParameter comment="" name="tac_url" prompt="tac_url?" promptNeeded="false" repositoryContextId="_DJ7nYEzMEeix7K-sD_cCVQ" type="id_String" value="&quot;http://localhost:8080/org.talend.administrator/metaServlet?&quot;"/>
   </context>
   <parameters>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
