@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendJSON="http://www.talend.org/json" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendJSON:JSONFileConnection xmi:id="_yzQMIEyEEeix7K-sD_cCVQ" name="input_run" dataPackage="_yzQMJ0yEEeix7K-sD_cCVQ" JSONFilePath="C:/Users/Administrator/Desktop/TAC_Task/input_run.json" Encoding="UTF-8" readbyMode="JSONPATH">
+    <schema xmi:id="_yzQMIUyEEeix7K-sD_cCVQ" LimitBoucle="50" AbsoluteXPathQuery="$">
+      <schemaTargets xmi:id="_yzQMIkyEEeix7K-sD_cCVQ" RelativeXPathQuery="actionName" TagName="actionName"/>
+      <schemaTargets xmi:id="_yzQMI0yEEeix7K-sD_cCVQ" RelativeXPathQuery="authPass" TagName="authPass"/>
+      <schemaTargets xmi:id="_yzQMJEyEEeix7K-sD_cCVQ" RelativeXPathQuery="authUser" TagName="authUser"/>
+      <schemaTargets xmi:id="_yzQMJUyEEeix7K-sD_cCVQ" RelativeXPathQuery="mode" TagName="mode"/>
+      <schemaTargets xmi:id="_yzQMJkyEEeix7K-sD_cCVQ" RelativeXPathQuery="taskId" TagName="taskId"/>
+    </schema>
+  </TalendJSON:JSONFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_yzQMJ0yEEeix7K-sD_cCVQ" name="default" dataManager="_yzQMIEyEEeix7K-sD_cCVQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_yzZ9IEyEEeix7K-sD_cCVQ" id="_qB8HgEyEEeix7K-sD_cCVQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_yzZ9IUyEEeix7K-sD_cCVQ" label="actionName" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_yzZ9IkyEEeix7K-sD_cCVQ" label="authPass" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_yzZ9I0yEEeix7K-sD_cCVQ" label="authUser" length="17" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_yzZ9JEyEEeix7K-sD_cCVQ" label="mode" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_yzZ9JUyEEeix7K-sD_cCVQ" label="taskId" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
