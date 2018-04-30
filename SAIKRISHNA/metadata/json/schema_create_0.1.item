@@ -25,7 +25,7 @@
   <orgomg.cwm.resource.record:RecordFile xmi:id="_vBm6BkyZEeix7K-sD_cCVQ" name="default" dataManager="_vBm58UyZEeix7K-sD_cCVQ">
     <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_vBm6B0yZEeix7K-sD_cCVQ" id="_eRVasEyZEeix7K-sD_cCVQ" label="metadata">
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vBm6CEyZEeix7K-sD_cCVQ" name="actionName" label="actionName" talendType="id_String"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vBm6CUyZEeix7K-sD_cCVQ" name="active" label="active" talendType="id_Boolean"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vBm6CUyZEeix7K-sD_cCVQ" name="active" label="active" length="-1" talendType="id_String"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vBm6CkyZEeix7K-sD_cCVQ" name="authPass" label="authPass" talendType="id_String"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vBm6C0yZEeix7K-sD_cCVQ" name="authUser" label="authUser" talendType="id_String"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vBm6DEyZEeix7K-sD_cCVQ" name="contextName" label="contextName" talendType="id_String"/>
@@ -39,7 +39,7 @@
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vBm6FEyZEeix7K-sD_cCVQ" name="nexusRepository" label="nexusRepository" talendType="id_String"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vBm6FUyZEeix7K-sD_cCVQ" name="nexusVersion" label="nexusVersion" talendType="id_String"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vBm6FkyZEeix7K-sD_cCVQ" name="onUnknownStateJob" label="onUnknownStateJob" talendType="id_String"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vBm6F0yZEeix7K-sD_cCVQ" name="pauseOnError" label="pauseOnError" talendType="id_Boolean"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vBm6F0yZEeix7K-sD_cCVQ" name="pauseOnError" label="pauseOnError" length="-1" talendType="id_String"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vBm6GEyZEeix7K-sD_cCVQ" name="taskName" label="taskName" talendType="id_String"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vBm6GUyZEeix7K-sD_cCVQ" name="taskType" label="taskType" talendType="id_String"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vBm6GkyZEeix7K-sD_cCVQ" name="timeout" label="timeout" length="-1" talendType="id_String"/>
