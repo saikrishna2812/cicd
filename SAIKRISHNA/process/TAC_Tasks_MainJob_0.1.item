@@ -2,6 +2,8 @@
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
   <context confirmationNeeded="false" name="Default">
     <contextParameter comment="" name="runJob" prompt="runJob?" promptNeeded="false" type="id_Boolean" value="true"/>
+    <contextParameter comment="" name="filepath" prompt="filepath?" promptNeeded="false" repositoryContextId="_DJ7nYEzMEeix7K-sD_cCVQ" type="id_String" value="&quot;C:/Users/Administrator/Desktop/TAC_Task/centralized_input.txt&quot;"/>
+    <contextParameter comment="" name="tac_url" prompt="tac_url?" promptNeeded="false" repositoryContextId="_DJ7nYEzMEeix7K-sD_cCVQ" type="id_String" value="&quot;http://localhost:8080/org.talend.administrator/metaServlet?&quot;"/>
   </context>
   <parameters>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
