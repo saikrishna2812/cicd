@@ -183,6 +183,8 @@
       <relatedItems xmi:id="_8L9EQUytEeix7K-sD_cCVQ" id="_uu6SUEyXEeix7K-sD_cCVQ" version="Latest" type="property"/>
       <relatedItems xmi:id="_8L9EQkytEeix7K-sD_cCVQ" id="_GqHo4EyFEeix7K-sD_cCVQ - metadata" version="Latest" type="schema"/>
       <relatedItems xmi:id="_8L9EQ0ytEeix7K-sD_cCVQ" id="_uu6SUEyXEeix7K-sD_cCVQ - metadata" version="Latest" type="schema"/>
+      <relatedItems xmi:id="_Ko2WMEyvEeix7K-sD_cCVQ" id="_AWnLAEynEeix7K-sD_cCVQ" version="Latest" type="property"/>
+      <relatedItems xmi:id="_Ko2WMUyvEeix7K-sD_cCVQ" id="_AWnLAEynEeix7K-sD_cCVQ - metadata" version="Latest" type="schema"/>
     </ItemsRelations>
     <migrationTask xmi:id="_k7Q6gEnEEeinivfRauGGpQ" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_k7Q6gUnEEeinivfRauGGpQ" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
