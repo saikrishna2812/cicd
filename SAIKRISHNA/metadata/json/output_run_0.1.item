@@ -14,7 +14,7 @@
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GqHo60yFEeix7K-sD_cCVQ" name="authPass" label="authPass" talendType="id_String"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GqHo7EyFEeix7K-sD_cCVQ" name="authUser" label="authUser" talendType="id_String"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GqHo7UyFEeix7K-sD_cCVQ" name="mode" label="mode" talendType="id_String"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GqHo7kyFEeix7K-sD_cCVQ" name="taskId" label="taskId" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GqHo7kyFEeix7K-sD_cCVQ" name="taskId" label="taskId" length="-1" talendType="id_String"/>
     </ownedElement>
   </orgomg.cwm.resource.record:RecordFile>
 </xmi:XMI>
