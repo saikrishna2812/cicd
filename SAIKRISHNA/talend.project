@@ -124,8 +124,8 @@
       <relatedItems xmi:id="_5QHf7EyaEeix7K-sD_cCVQ" id="Relational" version="Latest" type="routine"/>
       <relatedItems xmi:id="_5QHf7UyaEeix7K-sD_cCVQ" id="TalendStringUtil" version="Latest" type="routine"/>
       <relatedItems xmi:id="_5QHf7kyaEeix7K-sD_cCVQ" id="_vBm58EyZEeix7K-sD_cCVQ - metadata" version="Latest" type="schema"/>
-      <relatedItems xmi:id="_o6v6gEzHEeix7K-sD_cCVQ" id="_0tFUYEysEeix7K-sD_cCVQ" version="Latest" type="property"/>
       <relatedItems xmi:id="_o6v6gUzHEeix7K-sD_cCVQ" id="_0tFUYEysEeix7K-sD_cCVQ - metadata" version="Latest" type="schema"/>
+      <relatedItems xmi:id="_NELC8EzMEeix7K-sD_cCVQ" id="_DJ7nYEzMEeix7K-sD_cCVQ" version="Latest" type="context"/>
     </ItemsRelations>
     <ItemsRelations xmi:id="_uSNU8EynEeix7K-sD_cCVQ">
       <baseItem xmi:id="_uSNU8UynEeix7K-sD_cCVQ" id="_rh60EEymEeix7K-sD_cCVQ" version="0.1" type="job"/>
