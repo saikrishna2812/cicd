@@ -121,7 +121,7 @@
       <elementValue elementRef="SCHEMA_COLUMN" value="mode"/>
       <elementValue elementRef="VALUE" value="&quot;ascynchronous&quot;"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="taskId"/>
-      <elementValue elementRef="VALUE" value="44"/>
+      <elementValue elementRef="VALUE" value="&quot;44&quot;"/>
     </elementParameter>
     <elementParameter field="RADIO" name="USE_INTABLE" value="false"/>
     <elementParameter field="TABLE" name="INTABLE" show="false"/>
@@ -182,7 +182,7 @@
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_GqHo4EyFEeix7K-sD_cCVQ - metadata" show="false"/>
     <elementParameter field="TABLE" name="GROUPBYS"/>
-    <elementParameter field="CHECK" name="REMOVE_ROOT" value="false"/>
+    <elementParameter field="CHECK" name="REMOVE_ROOT" value="true"/>
     <elementParameter field="CHECK" name="COMPACT_FORMAT" value="true" show="false"/>
     <elementParameter field="TEXT" name="LABEL" value="output_run"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
