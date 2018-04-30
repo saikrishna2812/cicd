@@ -5,7 +5,7 @@
     <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_dKI8Y0yJEeix7K-sD_cCVQ" id="_Vn2PoEyJEeix7K-sD_cCVQ" label="metadata">
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_dKI8ZEyJEeix7K-sD_cCVQ" label="actionName" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_dKI8ZUyJEeix7K-sD_cCVQ" label="authPass" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_dKI8ZkyJEeix7K-sD_cCVQ" label="authName" length="17" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_dKI8ZkyJEeix7K-sD_cCVQ" label="authUser" length="17" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_dKI8Z0yJEeix7K-sD_cCVQ" label="mode" length="13" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_dKI8aEyJEeix7K-sD_cCVQ" label="taskId" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
     </ownedElement>
