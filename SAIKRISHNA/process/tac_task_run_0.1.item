@@ -121,7 +121,7 @@
       <elementValue elementRef="SCHEMA_COLUMN" value="mode"/>
       <elementValue elementRef="VALUE" value="&quot;ascynchronous&quot;"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="taskId"/>
-      <elementValue elementRef="VALUE" value="&quot;44&quot;"/>
+      <elementValue elementRef="VALUE" value="44"/>
     </elementParameter>
     <elementParameter field="RADIO" name="USE_INTABLE" value="false"/>
     <elementParameter field="TABLE" name="INTABLE" show="false"/>
