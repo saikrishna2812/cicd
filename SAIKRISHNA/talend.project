@@ -62,6 +62,19 @@
       <relatedItems xmi:id="_M329gEyFEeix7K-sD_cCVQ" id="_GqHo4EyFEeix7K-sD_cCVQ" version="Latest" type="property"/>
       <relatedItems xmi:id="_M329gUyFEeix7K-sD_cCVQ" id="_GqHo4EyFEeix7K-sD_cCVQ - metadata" version="Latest" type="schema"/>
     </ItemsRelations>
+    <ItemsRelations xmi:id="_y6lRQEyGEeix7K-sD_cCVQ">
+      <baseItem xmi:id="_y6lRQUyGEeix7K-sD_cCVQ" id="_Wl0bIEyGEeix7K-sD_cCVQ" version="0.1" type="job"/>
+      <relatedItems xmi:id="_y6lRQkyGEeix7K-sD_cCVQ" id="SQLike" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_y6lRQ0yGEeix7K-sD_cCVQ" id="Numeric" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_y6lRREyGEeix7K-sD_cCVQ" id="Relational" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_y6lRRUyGEeix7K-sD_cCVQ" id="TalendString" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_y6lRRkyGEeix7K-sD_cCVQ" id="TalendStringUtil" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_y6lRR0yGEeix7K-sD_cCVQ" id="DataOperation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_y6lRSEyGEeix7K-sD_cCVQ" id="StringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_y6lRSUyGEeix7K-sD_cCVQ" id="TalendDataGenerator" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_y6lRSkyGEeix7K-sD_cCVQ" id="TalendDate" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_y6lRS0yGEeix7K-sD_cCVQ" id="Mathematical" version="Latest" type="routine"/>
+    </ItemsRelations>
     <migrationTask xmi:id="_k7Q6gEnEEeinivfRauGGpQ" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_k7Q6gUnEEeinivfRauGGpQ" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_k7Q6gknEEeinivfRauGGpQ" id="org.talend.repository.model.migration.CleanFoldersMigrationTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
