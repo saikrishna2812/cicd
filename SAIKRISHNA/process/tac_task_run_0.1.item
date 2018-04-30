@@ -286,7 +286,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileOutputRaw_1" show="false"/>
     <elementParameter field="FILE" name="FILENAME" value="&quot;C:/Users/Administrator/Desktop/TAC_Task/out_staging.txt&quot;"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;UTF-8&quot;"/>
-    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="UTF-8"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="CUSTOM"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="metadata" name="tFileOutputRaw_1">
