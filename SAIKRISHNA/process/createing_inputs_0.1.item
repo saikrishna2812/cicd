@@ -337,7 +337,9 @@
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
       <uiProperties shellMaximized="true"/>
-      <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
+      <varTables sizeState="INTERMEDIATE" name="Var">
+        <mapperTableEntries name="var1" expression="" type="id_String"/>
+      </varTables>
       <outputTables sizeState="INTERMEDIATE" name="out1" expressionFilter="row1.actionName.equals(&quot;associatePreGeneratedJob&quot;)" activateExpressionFilter="true">
         <mapperTableEntries name="actionName" expression="row1.actionName " type="id_String" nullable="true"/>
         <mapperTableEntries name="active" expression="row1.active " type="id_String" nullable="true"/>
