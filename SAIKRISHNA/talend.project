@@ -59,8 +59,6 @@
       <relatedItems xmi:id="_N7FnCUyDEeix7K-sD_cCVQ" id="TalendDataGenerator" version="Latest" type="routine"/>
       <relatedItems xmi:id="_N7FnCkyDEeix7K-sD_cCVQ" id="TalendDate" version="Latest" type="routine"/>
       <relatedItems xmi:id="_N7FnC0yDEeix7K-sD_cCVQ" id="Mathematical" version="Latest" type="routine"/>
-      <relatedItems xmi:id="_M329gEyFEeix7K-sD_cCVQ" id="_GqHo4EyFEeix7K-sD_cCVQ" version="Latest" type="property"/>
-      <relatedItems xmi:id="_M329gUyFEeix7K-sD_cCVQ" id="_GqHo4EyFEeix7K-sD_cCVQ - metadata" version="Latest" type="schema"/>
     </ItemsRelations>
     <ItemsRelations xmi:id="_y6lRQEyGEeix7K-sD_cCVQ">
       <baseItem xmi:id="_y6lRQUyGEeix7K-sD_cCVQ" id="_Wl0bIEyGEeix7K-sD_cCVQ" version="0.1" type="job"/>
