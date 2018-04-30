@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_DJ7nYUzMEeix7K-sD_cCVQ" name="Default">
+  <contextParameter xmi:id="_DKOiUEzMEeix7K-sD_cCVQ" comment="" name="filepath" prompt="filepath?" promptNeeded="false" type="id_String" value="&quot;C:/Users/Administrator/Desktop/TAC_Task/centralized_input.txt&quot;"/>
+  <contextParameter xmi:id="_DKOiUUzMEeix7K-sD_cCVQ" comment="" name="tac_url" prompt="tac_url?" promptNeeded="false" type="id_String" value="&quot;http://localhost:8080/org.talend.administrator/metaServlet?&quot;"/>
+</talendfile:ContextType>
