@@ -7,6 +7,18 @@
     <documentationStatus xmi:id="_k7j1cEnEEeinivfRauGGpQ" label="unchecked" code="UCK"/>
     <documentationStatus xmi:id="_k7j1cUnEEeinivfRauGGpQ" label="checked" code="CHK"/>
     <documentationStatus xmi:id="_k7j1cknEEeinivfRauGGpQ" label="validated" code="VAL"/>
+    <componentsSettings xmi:id="_WElPIEyuEeix7K-sD_cCVQ" name="DI|tAccessOutputBulkExec" family="Databases/Access"/>
+    <componentsSettings xmi:id="_WElPIUyuEeix7K-sD_cCVQ" name="SPARKSTREAMING|tAvroMap" family="Processing"/>
+    <componentsSettings xmi:id="_WElPIkyuEeix7K-sD_cCVQ" name="DI|tHashInput" family="Technical"/>
+    <componentsSettings xmi:id="_WElPI0yuEeix7K-sD_cCVQ" name="DI|tDBInput" family="Databases/DB_Generic"/>
+    <componentsSettings xmi:id="_WElPJEyuEeix7K-sD_cCVQ" name="DI|tAccessBulkExec" family="Databases/Access"/>
+    <componentsSettings xmi:id="_WElPJUyuEeix7K-sD_cCVQ" name="DI|tArray" family="Technical"/>
+    <componentsSettings xmi:id="_WElPJkyuEeix7K-sD_cCVQ" name="DI|tDBOutput" family="Databases/DB_Generic"/>
+    <componentsSettings xmi:id="_WElPJ0yuEeix7K-sD_cCVQ" name="DI|tDBSQLRow" family="Databases/DB_Generic"/>
+    <componentsSettings xmi:id="_WElPKEyuEeix7K-sD_cCVQ" name="DI|tSAPIDocInput" family="Business/SAP"/>
+    <componentsSettings xmi:id="_WElPKUyuEeix7K-sD_cCVQ" name="DI|tHashOutput" family="Technical"/>
+    <componentsSettings xmi:id="_WElPKkyuEeix7K-sD_cCVQ" name="DI|tArrayIn" family="Technical"/>
+    <componentsSettings xmi:id="_WElPK0yuEeix7K-sD_cCVQ" name="SPARK|tAvroMap" family="Processing"/>
     <ItemsRelations xmi:id="_zmfY0EnEEeinivfRauGGpQ">
       <baseItem xmi:id="_zmfY0UnEEeinivfRauGGpQ" id="_ukKHYEnEEeinivfRauGGpQ" version="0.1" type="job"/>
       <relatedItems xmi:id="_zmfY0knEEeinivfRauGGpQ" id="SQLike" version="Latest" type="routine"/>
