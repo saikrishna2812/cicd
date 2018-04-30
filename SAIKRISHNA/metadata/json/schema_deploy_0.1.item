@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendJSON="http://www.talend.org/json" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendJSON:JSONFileConnection xmi:id="_uu6SUUyXEeix7K-sD_cCVQ" name="schema_deploy" dataPackage="_uu6SV0yXEeix7K-sD_cCVQ" JSONFilePath="C:/Users/Administrator/Desktop/TAC_Task/schema_deploy.json" Encoding="UTF-8" inputModel="false" outputFilePath="C:/Users/Administrator/Desktop/TAC_Task/out_deploy.json">
+    <root xmi:id="_uu6SUkyXEeix7K-sD_cCVQ" JSONPath="/root" RelatedColumn="" Attribute="main" Order="1" Type="id_String"/>
+    <root xmi:id="_uu6SU0yXEeix7K-sD_cCVQ" JSONPath="/root/authPass" RelatedColumn="authPass" Attribute="branch" Order="3" Type="id_String"/>
+    <root xmi:id="_uu6SVEyXEeix7K-sD_cCVQ" JSONPath="/root/authUser" RelatedColumn="authUser" Attribute="branch" Order="4" Type="id_String"/>
+    <root xmi:id="_uu6SVUyXEeix7K-sD_cCVQ" JSONPath="/root/taskId" RelatedColumn="taskId" Attribute="branch" Order="5" Type="id_Integer"/>
+    <loop xmi:id="_uu6SVkyXEeix7K-sD_cCVQ" JSONPath="/root/actionName" RelatedColumn="actionName" Attribute="main" Order="2" Type="id_String"/>
+  </TalendJSON:JSONFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_uu6SV0yXEeix7K-sD_cCVQ" name="default" dataManager="_uu6SUUyXEeix7K-sD_cCVQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_uu6SWEyXEeix7K-sD_cCVQ" id="_kkLjsEyXEeix7K-sD_cCVQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_uu6SWUyXEeix7K-sD_cCVQ" name="actionName" label="actionName" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_uu6SWkyXEeix7K-sD_cCVQ" name="authPass" label="authPass" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_uu6SW0yXEeix7K-sD_cCVQ" name="authUser" label="authUser" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_uu6SXEyXEeix7K-sD_cCVQ" name="taskId" label="taskId" length="-1" talendType="id_String"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
