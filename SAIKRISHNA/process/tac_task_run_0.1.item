@@ -119,7 +119,7 @@
       <elementValue elementRef="SCHEMA_COLUMN" value="authUser"/>
       <elementValue elementRef="VALUE" value="&quot;admin@company.com&quot;"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="mode"/>
-      <elementValue elementRef="VALUE" value="&quot;ascynchronous&quot;"/>
+      <elementValue elementRef="VALUE" value="&quot;asynchronous&quot;"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="taskId"/>
       <elementValue elementRef="VALUE" value="44"/>
     </elementParameter>
