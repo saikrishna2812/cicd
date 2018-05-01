@@ -183,6 +183,19 @@
       <relatedItems xmi:id="_Ko2WMEyvEeix7K-sD_cCVQ" id="_AWnLAEynEeix7K-sD_cCVQ" version="Latest" type="property"/>
       <relatedItems xmi:id="_Ko2WMUyvEeix7K-sD_cCVQ" id="_AWnLAEynEeix7K-sD_cCVQ - metadata" version="Latest" type="schema"/>
     </ItemsRelations>
+    <ItemsRelations xmi:id="__bT5wE09Eeix7K-sD_cCVQ">
+      <baseItem xmi:id="__bT5wU09Eeix7K-sD_cCVQ" id="_kHeVIE09Eeix7K-sD_cCVQ" version="0.1" type="job"/>
+      <relatedItems xmi:id="__bT5wk09Eeix7K-sD_cCVQ" id="SQLike" version="Latest" type="routine"/>
+      <relatedItems xmi:id="__bT5w009Eeix7K-sD_cCVQ" id="Numeric" version="Latest" type="routine"/>
+      <relatedItems xmi:id="__bT5xE09Eeix7K-sD_cCVQ" id="Relational" version="Latest" type="routine"/>
+      <relatedItems xmi:id="__bT5xU09Eeix7K-sD_cCVQ" id="TalendString" version="Latest" type="routine"/>
+      <relatedItems xmi:id="__bT5xk09Eeix7K-sD_cCVQ" id="TalendStringUtil" version="Latest" type="routine"/>
+      <relatedItems xmi:id="__bT5x009Eeix7K-sD_cCVQ" id="DataOperation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="__bT5yE09Eeix7K-sD_cCVQ" id="StringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="__bT5yU09Eeix7K-sD_cCVQ" id="TalendDataGenerator" version="Latest" type="routine"/>
+      <relatedItems xmi:id="__bT5yk09Eeix7K-sD_cCVQ" id="TalendDate" version="Latest" type="routine"/>
+      <relatedItems xmi:id="__bT5y009Eeix7K-sD_cCVQ" id="Mathematical" version="Latest" type="routine"/>
+    </ItemsRelations>
     <migrationTask xmi:id="_k7Q6gEnEEeinivfRauGGpQ" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_k7Q6gUnEEeinivfRauGGpQ" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_k7Q6gknEEeinivfRauGGpQ" id="org.talend.repository.model.migration.CleanFoldersMigrationTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
