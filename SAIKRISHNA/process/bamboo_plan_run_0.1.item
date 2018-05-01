@@ -110,7 +110,7 @@
     <elementParameter field="CHECK" name="ROOTDIR" value="false"/>
     <elementParameter field="DIRECTORY" name="DIRECTORY" value="&quot;C:/Users/Administrator/workspace&quot;" show="false"/>
     <elementParameter field="RADIO" name="USE_SINGLE_COMMAND" value="true"/>
-    <elementParameter field="MEMO_JAVA" name="COMMAND" value="&quot;curl --user administrator:administrator -X POST -d &quot;JOB1&amp;ExecuteAllStages&quot; http://localhost:8085/rest/api/latest/queue/GenerateSources-GenerateSources&quot;"/>
+    <elementParameter field="MEMO_JAVA" name="COMMAND" value="&quot;curl --user administrator:administrator -X POST -d 'JOB1&amp;ExecuteAllStages' http://localhost:8085/rest/api/latest/queue/GenerateSources-GenerateSources&quot;"/>
     <elementParameter field="RADIO" name="USE_ARRAY_COMMAND" value="false"/>
     <elementParameter field="TABLE" name="ARRAY_COMMAND" show="false"/>
     <elementParameter field="CLOSED_LIST" name="OUTPUT" value="OUTPUT_TO_CONSOLE"/>
