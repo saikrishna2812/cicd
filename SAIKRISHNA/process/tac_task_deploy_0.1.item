@@ -487,7 +487,7 @@
       <varTables sizeState="INTERMEDIATE" name="Var">
         <mapperTableEntries name="var1" expression="" type="id_String"/>
       </varTables>
-      <outputTables sizeState="INTERMEDIATE" name="out2" expressionFilter="row1.actionName.equals(&quot;requestDeploy&quot;) &amp;&amp; row1.taskId.!equals(&quot;0&quot;)" activateExpressionFilter="true">
+      <outputTables sizeState="INTERMEDIATE" name="out2" expressionFilter="row1.actionName.equals(&quot;requestDeploy&quot;) &amp;&amp; !row1.taskId.equals(&quot;0&quot;)" activateExpressionFilter="true">
         <mapperTableEntries name="actionName" expression="row1.actionName" type="id_String" nullable="true"/>
         <mapperTableEntries name="authPass" expression="row1.authPass " type="id_String" nullable="true"/>
         <mapperTableEntries name="authUser" expression="row1.authUser " type="id_String" nullable="true"/>
