@@ -480,7 +480,7 @@
       <column comment="" key="false" length="0" name="actionName" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="0" name="authPass" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="0" name="authUser" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="taskId" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="taskId" nullable="true" pattern="" precision="0" type="id_Integer" usefulColumn="true"/>
     </metadata>
     <metadata connector="FLOW" name="out3">
       <column comment="" key="false" length="0" name="actionName" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
@@ -498,7 +498,7 @@
         <mapperTableEntries name="actionName" expression="row1.actionName" type="id_String" nullable="true"/>
         <mapperTableEntries name="authPass" expression="row1.authPass " type="id_String" nullable="true"/>
         <mapperTableEntries name="authUser" expression="row1.authUser " type="id_String" nullable="true"/>
-        <mapperTableEntries name="taskId" expression="Integer.parseInt(row1.taskId) " type="id_String" nullable="true"/>
+        <mapperTableEntries name="taskId" expression="Integer.parseInt(row1.taskId) " type="id_Integer" nullable="true"/>
       </outputTables>
       <outputTables sizeState="INTERMEDIATE" name="out3" expressionFilter="row1.actionName.equals(&quot;requestDeploy&quot;) &amp;&amp; row1.taskId.equals(&quot;0&quot;)" activateExpressionFilter="true">
         <mapperTableEntries name="actionName" expression="row1.actionName" type="id_String" nullable="true"/>
